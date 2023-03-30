@@ -1,9 +1,12 @@
 @charset 'UTF-8';
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Roboto+Slab&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -45,14 +48,15 @@
 
 }
 nav {
-    margin-top: 500px;
+    margin-top: 50vh;
 }
 .main-nav {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     text-transform: uppercase;
     list-style: none;
-    padding-bottom: 240px;
+    padding-bottom: 15vh;
     background: #020a2270;
+    /* width: 30vw; */
 
 }
 
@@ -60,8 +64,8 @@ nav {
     
 }
 .main-nav a {
-    color: aliceblue;
-    padding: 8px 300px 8px 8px;
+    color: rgba(240, 248, 255, 0.719);
+    padding: 10px 300px 10px 10px;
     border-radius: 5px;
 }
 .main-nav li:hover {
@@ -86,7 +90,7 @@ nav {
     z-index: 2;
     display: flex;
     justify-content: space-between;
-    padding-top: 700px;
+    /* padding-top: 700px; */
 }
 
 .wrapper{
@@ -100,7 +104,13 @@ a {
 }
 .logo-link {
     width: 50%;
-    margin: 450px 20px 300px 20px;
+    margin: 700px 20px 20px 20px;
+}
+
+.i343 {
+    position: fixed;
+    bottom: 6vh;
+    right: 10vh;
 }
 
   
