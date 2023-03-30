@@ -92,9 +92,9 @@ nav {
 }
 
 .wrapper{
-    max-width: 1600px;
+    max-width: 1900px;
     margin: 0 auto;
-    padding: 0 4%;
+    padding: 0 3%;
 }
 
 a {
@@ -102,13 +102,17 @@ a {
 }
 .logo-link {
     width: 50%;
-    margin: 700px 20px 20px 20px;
+    /* margin: 700px 20px 20px 20px; */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 50vh;
 }
 
 .i343 {
     position: fixed;
     bottom: 6vh;
-    right: 10vh;
+    right: 15vw;
 }
   
 
