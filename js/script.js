@@ -16,3 +16,22 @@ window.addEventListener('load', () => {
         }
     );
 });
+
+
+const navItems = document.querySelectorAll('.page-header li');
+
+navItems.forEach((navItem, index) => {
+    // console.log(`${index}番目のリスト`);
+    navItem.animate(
+        {
+            opacity: [0 ,1],
+            // translate: ['2rem', 0],
+        },
+        {
+            duration: 2400,
+            delay: 1000 * index,
+            easing: 'ease-in',
+            fill: 'forwards',
+        }
+    );
+});

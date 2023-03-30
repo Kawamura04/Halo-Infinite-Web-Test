@@ -59,6 +59,9 @@ nav {
     /* width: 30vw; */
 
 }
+.main-nav li {
+    opacity: 0;
+}
 
 
 .main-nav a {
