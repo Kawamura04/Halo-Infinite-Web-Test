@@ -29,7 +29,7 @@ navItems.forEach((navItem, index) => {
         },
         {
             duration: 2400,
-            delay: 1000 * index,
+            delay: 800 * index,
             easing: 'ease-in',
             fill: 'forwards',
         }
