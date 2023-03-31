@@ -35,6 +35,10 @@
     opacity: 0.7;
 }
 
+.login-h1 {
+    z-index: 5;
+}
+
 #main-video {
     position: absolute;
     top: 0;
@@ -56,6 +60,7 @@ nav {
     list-style: none;
     padding-bottom: 15vh;
     background: #020a2270;
+    /* padding-right: 15vw; */
     /* width: 30vw; */
 
 }
@@ -66,7 +71,11 @@ nav {
 
 .main-nav a {
     color: rgba(240, 248, 255, 0.719);
-    padding: 10px 300px 10px 10px;
+    /* padding: 10px 50% 10px 10px; */
+    padding-top: 10px;
+    padding-right: 15vw;
+    padding-bottom: 10px;
+    padding-left: 10px;
     border-radius: 5px;
 }
 .main-nav li:hover {
@@ -116,6 +125,20 @@ a {
     position: fixed;
     bottom: 6vh;
     right: 15vw;
+}
+
+/* フッター */
+footer {
+    background: #8b8b8b;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+footer p {
+    color: #ffffff70;
+    font-size: 1.7rem;
 }
   
 
